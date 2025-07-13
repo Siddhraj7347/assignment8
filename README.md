@@ -10,51 +10,39 @@ A Retrieval-Augmented Generation chatbot that answers questions about loan appli
 
 ```bash
 pip install -r requirements.txt
+```
+
 Optional: Enable Jupyter widgets
 
-bash
-Copy
-Edit
+```bash
 pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
-🔐 API Key
-In loan_rag_chatbot.ipynb, set your OpenAI API key:
+```
 
-python
-Copy
-Edit
+## 🔐 API Key
+
+In `loan_rag_chatbot.ipynb`, set your OpenAI API key:
+
+```python
 openai.api_key = "your-api-key"
-▶️ Run
-bash
-Copy
-Edit
+```
+
+## ▶️ Run
+
+```bash
 jupyter notebook loan_rag_chatbot.ipynb
-💬 Example Questions
-What are common loan amounts for applicants with high income?
+```
 
-Tell me about applicants who got their loans approved.
+## 💬 Example Questions
 
-Why are some loans rejected?
+- What are common loan amounts for applicants with high income?
+- Tell me about applicants who got their loans approved.
+- Why are some loans rejected?
 
-📦 Dependencies
-See requirements.txt
+## 📦 Dependencies
 
-📄 License
+See `requirements.txt`
+
+## 📄 License
+
 MIT License
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ 3. `requirements.txt`
-
-```txt
-pandas
-numpy
-faiss-cpu
-sentence-transformers
-openai==0.28
-kagglehub
-ipywidgets****
